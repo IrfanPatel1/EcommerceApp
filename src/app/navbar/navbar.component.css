@@ -1,6 +1,7 @@
 .navbarContainer{
     background-color: red;
-    height: 100%;  
+    height: 100%; 
+    /* border: 5px solid green;  */
 }
 .navbarTitle{
     color: white;
@@ -8,11 +9,15 @@
     padding: 10px;
     font-family: cursive;
     width: 100%;
+    border: 5px solid green; 
+
 }
 
 
 .NavigationLinks {
     float: right;
+    border: 5px solid green; 
+
 
 }
 
@@ -34,10 +39,15 @@ li a {
     font-weight: bolder;
     font-family: monospace;
 }
-.heroImage{
-   background: scroll;
-}
-.NavigationLinks2{
-    display: flex;
-    justify-content: center;
+
+.navbarContainer>input{
+   border: 50px solid yellow;
+   height: 50px;
+   margin-left: 70px;
+   width: 200px;
+   color: black;
+   margin-bottom: 20px;
+   border-radius: 20px;
+   border: none;
+   
 }
