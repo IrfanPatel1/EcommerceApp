@@ -5,9 +5,9 @@ import { HouseholdComponent } from './household/household.component';
 import { PersonalcareComponent } from './personalcare/personalcare.component';
 
 export const routes: Routes = [
-    {path:'food', component:FoodComponent},
-    {path:'beverages', component:BeveragesComponent},
-    {path:'household', component:HouseholdComponent},
-    {path:'personalcare', component:PersonalcareComponent},
-
+    // { path component } 
+    { path:'food', component:FoodComponent },
+    { path:'beverages', component:BeveragesComponent },
+    { path:'household', component:HouseholdComponent },
+    { path:'personalcare', component:PersonalcareComponent },
 ];

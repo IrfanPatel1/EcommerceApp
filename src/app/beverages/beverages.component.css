@@ -1,0 +1,52 @@
+ .beverageProduct {
+    border: 3px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #dadada; */
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* max-width: 300px; */
+    margin: 30px;
+    /* height: auto; */
+
+    flex: 1 1 300px; /* Grow to fit the container, min width 300px */
+    max-width: 300px;
+    
+    text-align: center;
+    font-family: arial;
+    background-color: rgb(37, 36, 36);
+    padding: 3px;
+    
+
+    
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 12px;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
