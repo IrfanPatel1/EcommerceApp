@@ -1,22 +1,24 @@
-.navbarContainer{
+.navbarContainer {
     background-color: red;
-    height: 100%; 
+    height: 100%;
     /* border: 5px solid green;  */
 }
-.navbarTitle{
+
+.navbarTitle {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     padding: 10px;
     font-family: cursive;
     width: 100%;
-    border: 5px solid green; 
+    /* border: 5px solid green; */
 
 }
 
 
 .NavigationLinks {
     float: right;
-    border: 5px solid green; 
+    /* border: 5px solid green; */
+    margin-top: 16px;
 
 
 }
@@ -40,14 +42,29 @@ li a {
     font-family: monospace;
 }
 
-.navbarContainer>input{
-   border: 50px solid yellow;
-   height: 50px;
-   margin-left: 70px;
-   width: 200px;
-   color: black;
-   margin-bottom: 20px;
-   border-radius: 20px;
-   border: none;
-   
+.navbarContainer>input {
+    border: 50px solid yellow;
+    height: 50px;
+    margin-left: 20px;
+    width: 300px;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+
+
+}
+
+i {
+    color: black;
+    font-size: 20px;
+    font-weight: 660;
+    margin-left: -40px;
+    position: relative;
 }
